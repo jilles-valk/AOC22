@@ -19,5 +19,6 @@ for elf in calories:
     top_three.sort()
     if len(top_three) > 3:
         top_three.pop(0)
-print(top_three)
-print(sum(top_three))
+        
+print("01_a: " + str(max(top_three)))
+print("01_b: " + str(sum(top_three)))

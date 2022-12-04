@@ -12,7 +12,7 @@ for line in lines:
     if ((me - opponent) % 3 == 1):
         pointsA += 6
 
-print(pointsA)
+print("02_a: " + str(pointsA))
 
 pointsB = 0
 for line in lines:
@@ -31,4 +31,4 @@ for line in lines:
 
     pointsB += play + 1
 
-print(pointsB)
+print("02_b: " + str(pointsB))
